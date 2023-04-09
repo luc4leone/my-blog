@@ -1,19 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@600&display=swap");
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    /* font-family: "bookerly", serif; */
     font-family: sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
     font-size: 1.2em;
     letter-spacing: 0.2px;
     line-height: 1.4;
 }
 
-h1 {
-    font-size: 1.4em;
+h1,
+h2,
+h3 {
+    font-family: "Caveat Brush", cursive;
+    text-transform: uppercase;
 }
+
+h1 {
+    font-size: 2em;
+}
+
 h2 {
+    font-size: 1.5em;
+}
+
+h3 {
     font-size: 1.2em;
 }
 
@@ -21,8 +36,26 @@ p {
     margin-bottom: 2em;
 }
 
+.summary {
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+
+.italic {
+    font-style: italic;
+}
+
+footer {
+    color: #666;
+    font-size: 0.9em;
+}
+
+footer > h3 {
+    font-weight: 400;
+}
+
 @media only screen and (min-width: 600px) {
     body {
-        width: 50%;
+        max-width: 60ch;
     }
 }

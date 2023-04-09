@@ -6,12 +6,39 @@
         <link href="https://fonts.cdnfonts.com/css/bookerly" rel="stylesheet" />
         <link rel="stylesheet" href="../style.css" />
     </head>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        main {
+            flex: 1;
+        }
+    </style>
     <body>
-        <h1>Leone Blog</h1>
-        <h2>2023</h2>
-        <div>
-            8 April -
-            <a href="./posts/publish-a-blog.html">A Simple Blog to Build</a>
-        </div>
+        <h1 class="title">Leone Blog</h1>
+        <main>
+            <h2>2023</h2>
+            <div>
+                8 April -
+                <a href="./posts/publish-a-blog.html">A Simple Blog to Build</a>
+            </div>
+        </main>
+        <footer>
+            <h3>subscription ✉️</h3>
+            <p class="italic">
+                Want to receive an email when I publish the next post? Let me
+                know at luca@leone.blog
+            </p>
+            <h3>about luca leone 🙋‍♂️</h3>
+            <p>
+                Hey! I'm Luca, I am a freelance interaction designer. I am also
+                the co-founder of
+                <a href="http://calcioclip.com">Calcio Clip</a>. Thanks for
+                reading!
+            </p>
+        </footer>
     </body>
 </html>
